@@ -161,42 +161,7 @@ Do the following:
 11. Error Handling
 12. Input Validation
 
-### Here are my answers for the coding assignment.
-
-## Identify as much as possible bad practices used in the code and explain why.
-
-1. Lack of Modularization:
-   The code currently combines all functionalities within a module into a single file, which hinders code organization and maintainability.
-
-2. Absence of Routing:
-   The absence of a routing system makes it challenging to manage and access various application endpoints efficiently.
-
-3. Scalability Concerns:
-   The current codebase lacks the necessary structure for scalability. As it grows, it risks becoming convoluted and difficult to manage effectively.
-
-4. Static and Non-Dynamic: 
-    The codebase does not adapt well to dynamic changes or evolving requirements, limiting its flexibility and adaptability.
-
-5. Security Vulnerabilities: 
-    Storing database credentials directly in the code poses a significant security risk, as it makes sensitive information accessible to unauthorized individuals.
-
-6. Raw SQL Queries: 
-    The use of raw SQL queries can make the code difficult to comprehend and maintain, potentially leading to errors and security risks.
-
-7. Inconsistent Responses: 
-    The absence of clear response rules results in inconsistent and non-standardized data outputs, which can be challenging for both developers and clients.
-
-8. Missing Payload Validation: 
-    The code does not incorporate payload validation, making it susceptible to malformed or malicious data input.
-
-9. Git Conflict Potential: 
-    The intermingling of various functionalities in a single file increases the likelihood of conflicts in version control systems, such as Git, especially when making minor changes or bug fixes.
-
-Addressing these issues will greatly enhance the quality, maintainability, and security of the codebase.
-
 ##  Refactor the application to have a cleaner codebase and easier to maintain / evolve (meaning: use OOP and its design patterns well).
-
-I am pleased to inform you that I have successfully completed the code refactoring process and implemented the following industry best practices:
 
 1. SOLID Principles: 
     I have applied the SOLID principles to enhance the code's maintainability and flexibility. This ensures that our codebase is more robust and adaptable to future changes.
